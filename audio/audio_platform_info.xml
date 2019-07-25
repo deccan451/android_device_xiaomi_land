@@ -150,6 +150,10 @@
         <device name="SND_DEVICE_IN_SPEAKER_QMIC_AEC" acdb_id="126"/>
         <device name="SND_DEVICE_IN_SPEAKER_QMIC_NS" acdb_id="127"/>
         <device name="SND_DEVICE_IN_SPEAKER_QMIC_AEC_NS" acdb_id="129"/>
+
+	<!-- microphone fix -->
+        <device name="SND_DEVICE_IN_HANDSET_MIC" acdb_id="1"/>
+        <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="1"/>
     </acdb_ids>
     
     <backend_names>
