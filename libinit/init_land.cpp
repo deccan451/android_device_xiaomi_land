@@ -75,9 +75,4 @@ void init_target_properties()
         property_set("ro.build.display.wtid", "SW_S88537EC1_V105_M20_MP_XM");
     }
 
-    if (buf.find("S88537AB1") != std::string::npos) {
-        property_set("ro.product.model", "Redmi 3X");
-    } else {
-        property_set("ro.product.model", "Redmi 3S");
-    }
 }
