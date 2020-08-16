@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/land/device.mk)
 # Inherit some common Project 404 stuff
 $(call inherit-product, vendor/404/configs/common.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := land
 PRODUCT_NAME := p404_land
