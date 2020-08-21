@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_land.mk
+    $(LOCAL_DIR)/cygnus_land.mk
+
+COMMON_LUNCH_CHOICES := \
+    cygnus_land-user \
+    cygnus_land-userdebug \
+    cygnus_land-eng
