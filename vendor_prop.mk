@@ -19,6 +19,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.ts.rtmakeup=true \
     media.camera.ts.monotonic=1
 
+# Dalvik
+PRODUCT_PROPERTY_OVERRIDES += \
+dalvik.vm.heapstartsize=8m \
+dalvik.vm.heapgrowthlimit=288m \
+dalvik.vm.heapsize=768m \
+dalvik.vm.heapminfree=512k \
+dalvik.vm.heapmaxfree=8m
+
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ct.device.model=XMP-2016030
