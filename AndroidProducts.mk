@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_land.mk
+    $(LOCAL_DIR)/conquer_land.mk
+
+COMMON_LUNCH_CHOICES := \
+    conquer_land-user \
+    conquer_land-userdebug \
+    conquer_land-eng
