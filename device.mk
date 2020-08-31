@@ -41,5 +41,9 @@ PRODUCT_PACKAGES += \
 # Properties
 -include $(DEVICE_PATH)/vendor_prop.mk
 
+# QTI Common
+$(call inherit-product, device/qcom/common/common.mk)
+TARGET_COMMON_QTI_COMPONENTS := perf
+
 # Inherit from msm8937-common
 $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
